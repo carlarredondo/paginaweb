@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="es" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sin título 1</title>
+<style type="text/css">
+.style1 {
+	text-align: center;
+	background-color: #CCCCCC;
+}
+.style2 {
+	border-style: solid;
+	border-color: #FFFFCC;
+	text-align: center;
+	color: #808080;
+	font-size: medium;
+	background-color: #FFFFCC;
+	position: relative;
+}
+.style3 {
+	border-style: solid;
+	border-color: #808080;
+	text-align: center;
+	color: #FFFFCC;
+	font-size: medium;
+	background-color: #808080;
+}
+.style5 {
+	color: #808080;
+}
+.style14 {
+	color: #FFFFCC;
+}
+.style23 {
+	background-color: #CCCCCC;
+}
+.style24 {
+	border-style: solid;
+	border-color: #FFFFCC;
+	background-color: #FFFFCC;
+	text-align: center;
+	color: #808080;
+}
+.style25 {
+	text-align: center;
+	font-size: 60pt;
+	color: #808080;
+	white-space: nowrap;
+}
+.style26 {
+	text-decoration: none;
+}
+.style27 {
+	font-size: 12pt;
+	text-align: left;
+}
+.style28 {
+	border-style: solid;
+	border-color: #808080;
+	background-color: #808080;
+	text-align: center;
+	position: relative;
+}
+a {
+	color: #FFFFCC;
+}
+a:visited {
+	color: #FFFFCC;
+}
+a:active {
+	color: #FFFFCC;
+}
+a:hover {
+	color: #FFFFCC;
+}
+.style29 {
+	text-decoration: none;
+	color: #808080;
+}
+
+/* SUBMENU DESLIZANTE */
+.submenu-tarjetas {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 150px;
+	height: 100%;
+	background-color: #D3D3D3;
+	border: 1px solid #808080;
+	display: none;
+	z-index: 1000;
+	box-sizing: border-box;
+}
+.submenu-tarjetas a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	color: #808080;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.submenu-tarjetas a:hover {
+	background-color: #C0C0C0;
+}
+.submenu-tarjetas.show {
+	display: block;
+}
+</style>
+</head>
+
+<body style="background-color: #CCCCCC; margin-top: 0;">
+
+<!-- FORO DE PREGUNTAS EMAILJS -->
+<div style="position:absolute; top:10px; right:10px; width:180px; background-color:#FFFFCC; border:1px solid #808080; padding:4px; font-size:8pt; color:#808080;">
+	<strong>Preguntas</strong><br />
+	<form id="formPreguntas">
+		<input type="text" name="nombre" placeholder="Nombre" required style="width:95%; font-size:7pt;" /><br /><br />
+		<input type="email" name="email" placeholder="Correo" required style="width:95%; font-size:7pt;" /><br /><br />
+		<textarea name="pregunta" rows="2" placeholder="Pregunta" required style="width:95%; font-size:7pt;"></textarea><br /><br />
+		<input type="submit" value="Enviar" style="font-size:7pt;" />
+	</form>
+	<p id="formMensaje" style="font-size:7pt; color:#808080;"></p>
+</div>
+
+<table style="width: 1300px; height: 600px;" class="style23" align="center">
+	<tr>
+		<td style="height: 100px; width: 173px;" class="style27">&nbsp;
+		<span class="style26"><strong>
+		<a href="../Trabajo%20INTERNET%202%20eval.doc" class="style29">Trabajo</a></strong></span><br />
+&nbsp; <span class="style14"><a href="index.htm" class="style26">INICIO</a></span></td>
+		<td style="height: 100px">&nbsp;</td>
+		<td rowspan="2" class="style25" style="height: 50px; width: 800px" valign="bottom">
+		INTERNET</td>
+	</tr>
+	<tr>
+		<td colspan="2" valign="top" style="height: 20px; width: 200px">
+		&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" valign="top">
+		<table style="width: 200px; height: 500px" cellspacing="1">
+			<tr>
+				<td style="width: 100px; height: 48px;"></td>
+				<td class="style2" style="height: 48px; width: 100px">
+				<a class="style26" href="A.htm"><span class="style5">DEFINICIÓN</span></a></td>
+			</tr>
+			<tr>
+				<td class="style3" style="height: 41px; width: 100px">
+				<span class="style14"><a class="style26" href="B.htm">HISTORIA</a></span></td>
+				<td style="height: 41px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 54px;"></td>
+				<td class="style2" style="height: 54px" id="tipos-tarjetas">
+					<a class="style26" href="C.htm"><span class="style5">TIPOS DE TARJETAS</span></a>
+					<div class="submenu-tarjetas" id="submenu-tarjetas">
+						<a href="C1.htm">Tarjeta red</a>
+						<a href="C2.htm">Tarjeta módem</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="style3" style="width: 136px; height: 53px;">
+				<a class="style26" href="D.htm">TIPOS DE CONEXIONES</a></td>
+				<td style="height: 53px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 49px;"></td>
+				<td class="style2" style="height: 49px">
+				<a class="style26" href="E.htm"><span class="style5">NAVEGADORES</span></a></td>
+			</tr>
+			<tr>
+				<td class="style28" style="width: 136px; height: 41px" id="protocolos">
+				<span class="style3"><a class="style26" href="F.htm">PROTOCOLOS</a></span>
+
+				<div class="submenu-tarjetas" id="submenu-protocolos">
+					<a href="F1.htm">Protocolo TCP/IP</a>
+					<a href="F2.htm">Protocolo FTP</a>
+				</div>
+
+				</td>
+				<td style="height: 41px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 49px;"></td>
+				<td class="style2" style="height: 49px">
+				<a class="style26" href="G.htm"><span class="style5">PÁGINAS WEB</span></a></td>
+			</tr>
+			<tr>
+				<td class="style3" style="width: 136px; height: 44px;">
+				<a href="H.htm" class="style26">FUNCIONALIDAD</a></td>
+				<td style="height: 44px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 59px;"></td>
+				<td class="style24" style="height: 59px">
+				<span class="style2"><a href="I.htm" class="style26">
+				<span class="style5">PRIVACIDAD Y SEGURIDAD</span></a></span></td>
+			</tr>
+		</table>
+		</td>
+		<td class="style1" style="width: 1100px;">
+		<img alt="" src="imagencentrobuena.png" width="1000" height="515" /></td>
+	</tr>
+
+	<tr>
+		<td colspan="3">
+			<table style="width:100%; margin-top:20px;">
+				<tr>
+					<td style="text-align:left; color:#808080; font-size:12pt;">
+						Visitas: <span id="contador"></span>
+					</td>
+					<td style="text-align:right; color:#808080; font-size:12pt;">
+						<span id="fechaHora"></span>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+</table>
+
+<script type="text/javascript">
+// CONTADOR DE VISITAS
+if (localStorage.getItem("visitas")) {
+	localStorage.setItem("visitas", Number(localStorage.getItem("visitas")) + 1);
+} else {
+	localStorage.setItem("visitas", 1);
+}
+document.getElementById("contador").innerHTML = localStorage.getItem("visitas");
+
+// FECHA Y HORA
+function actualizarHora() {
+	var ahora = new Date();
+	var fechaHora = ahora.toLocaleDateString() + " " + ahora.toLocaleTimeString();
+	document.getElementById("fechaHora").innerHTML = fechaHora;
+}
+actualizarHora();
+setInterval(actualizarHora, 1000);
+</script>
+
+<script>
+// TIPOS DE TARJETAS
+const tdTarjetas = document.getElementById('tipos-tarjetas');
+const submenu = document.getElementById('submenu-tarjetas');
+
+tdTarjetas.addEventListener('mouseenter', function(){
+	submenu.classList.add('show');
+});
+tdTarjetas.addEventListener('mouseleave', function(){
+	submenu.classList.remove('show');
+});
+
+// PROTOCOLOS (MISMO COMPORTAMIENTO)
+const tdProtocolos = document.getElementById('protocolos');
+const submenuProtocolos = document.getElementById('submenu-protocolos');
+
+tdProtocolos.addEventListener('mouseenter', function(){
+	submenuProtocolos.classList.add('show');
+});
+tdProtocolos.addEventListener('mouseleave', function(){
+	submenuProtocolos.classList.remove('show');
+});
+</script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+(function(){
+	emailjs.init("Q86imVbN5tw-CFVQH");
+})();
+
+const form = document.getElementById('formPreguntas');
+const mensaje = document.getElementById('formMensaje');
+
+form.addEventListener('submit', function(e) {
+	e.preventDefault();
+	emailjs.sendForm('service_cdq9tid', 'template_qz8cran', this)
+	.then(function() {
+		mensaje.textContent = "¡Mensaje enviado con éxito!";
+		form.reset();
+	}, function(error) {
+		mensaje.textContent = "Error al enviar. Intenta de nuevo.";
+		console.error('EmailJS Error:', error);
+	});
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Language" content="es" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sin título 1</title>
+<style type="text/css">
+/* --- TUS ESTILOS ORIGINALES --- */
+.style1 { text-align: center; background-color: #CCCCCC; }
+.style2 { border-style: solid; border-color: #FFFFCC; text-align: center; color: #808080; font-size: medium; background-color: #FFFFCC; }
+.style3 { border-style: solid; border-color: #808080; text-align: center; color: #FFFFCC; font-size: medium; background-color: #808080; }
+.style14 { color: #FFFFCC; }
+.style23 { background-color: #CCCCCC; }
+.style24 { border-style: solid; border-color: #FFFFCC; background-color: #FFFFCC; text-align: center; }
+.style25 { text-align: center; font-size: 60pt; color: #808080; white-space: nowrap; }
+.style26 { text-decoration: none; }
+.style27 { font-size: 12pt; }
+.style28 { border-style: solid; border-color: #808080; background-color: #808080; text-align: center; }
+a { color: #FFFFCC; }
+a:visited { color: #FFFFCC; }
+a:active { color: #FFFFCC; }
+a:hover { color: #FFFFCC; }
+.style29 { font-size: x-large; color: #FFFFCC; background-color: #808080; }
+.style31 { color: #808080; }
+.style32 { font-size: large; }
+.style34 { color: #808080; text-decoration: none; }
+.style35 { text-align: center; font-size: 15pt; color: #808080; white-space: nowrap; }
+.style36 { text-decoration: none; font-size: 15pt; }
+
+/* --- NUEVOS ESTILOS PARA EL SLIDER CON FLECHAS --- */
+.slider-contenedor {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto 0;
+    position: relative; /* Necesario para poner las flechas encima */
+    border: 5px solid #808080;
+    background-color: #fff;
+}
+
+/* Estilo para las imágenes (ocultas por defecto) */
+.mi-diapositiva {
+    display: none; /* Se ocultan todas */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Animación suave de desvanecido */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Estilo de los botones (flechas) */
+.boton-prev, .boton-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    background-color: rgba(0,0,0,0.3); /* Fondo semitransparente */
+    user-select: none;
+    text-decoration: none;
+}
+
+/* Posición de la flecha derecha */
+.boton-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Posición de la flecha izquierda */
+.boton-prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Al pasar el ratón por encima de las flechas */
+.boton-prev:hover, .boton-next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+</style>
+</head>
+
+<body style="background-color: #CCCCCC; margin-top: 0;">
+
+<table style="width: 1300px; height: 600px;" class="style23" align="center">
+	<tr>
+		<td style="height: 100px; width: 173px;" class="style27"><br />
+&nbsp; <span class="style14">
+		<a class="style26" href="index.htm">INICIO</a></span></td>
+		<td style="height: 100px">&nbsp;</td>
+		<td rowspan="2" class="style25" style="height: 50px; width: 800px" valign="bottom">
+		INTERNET</td>
+	</tr>
+	<tr>
+		<td colspan="2" valign="top" style="height: 20px; width: 200px">
+		&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2" valign="top">
+		<table style="width: 200px; height: 500px" cellspacing="1">
+			<tr>
+				<td style="width: 100px; height: 48px;"></td>
+				<td class="style2" style="height: 48px; width: 100px">
+				<a class="style26" href="A.htm"><span class="style31">DEFINICIÓN</span></a></td>
+			</tr>
+			<tr>
+				<td class="style3" style="height: 41px; width: 100px">
+				<span class="style14"><a class="style26" href="B.htm">HISTORIA</a></span></td>
+				<td style="height: 41px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 54px;"></td>
+				<td class="style2" style="height: 54px">
+				<a class="style26" href="C.htm"><span class="style31">TIPOS DE TARJETAS</span></a></td>
+			</tr>
+			<tr>
+				<td class="style3" style="width: 136px; height: 53px;">
+				<a class="style26" href="D.htm">TIPOS DE CONEXIONES</a></td>
+				<td style="height: 53px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 49px;"></td>
+				<td class="style2" style="height: 49px">
+				<a class="style26" href="E.htm"><span class="style31">NAVEGADORES</span></a></td>
+			</tr>
+			<tr>
+				<td class="style28" style="width: 136px; height: 41px">
+				<span class="style3"><a href="F.htm" class="style26">PROTOCOLOS</a></span></td>
+				<td style="height: 41px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 49px;"></td>
+				<td class="style2" style="height: 49px">
+				<a class="style26" href="G.htm"><span class="style31">PÁGINAS WEB</span></a></td>
+			</tr>
+			<tr>
+				<td class="style3" style="width: 136px; height: 44px;">
+				<a href="H.htm" class="style26">FUNCIONALIDAD</a></td>
+				<td style="height: 44px"></td>
+			</tr>
+			<tr>
+				<td style="width: 136px; height: 59px;"></td>
+				<td class="style24" style="height: 59px">
+				<span class="style2"><a href="I.htm" class="style26">
+				<span class="style31">PRIVACIDAD Y SEGURIDAD</span></a></span></td>
+			</tr>
+		</table>
+		</td>
+		<td class="style1" style="width: 1100px; " valign="top">
+		<table style="width: 1000px">
+			<tr>
+				<td class="style29" style="height: 20px">TIPOS DE TARJETAS</td>
+			</tr>
+			<tr>
+				<td class="style32"><br />
+				<br />
+				<a href="C1.htm" class="style34"><span class="style35">TARJETA 
+				RED</span></a><span class="style36"><br />
+				<br />
+				<br />
+				</span>
+				<a class="style34" href="C2.htm"><span class="style35">TARJETA 
+				MÓDEM</span></a>
+				
+				<br />
+				<br />
+
+				<div class="slider-contenedor">
+
+				    <div class="mi-diapositiva fade" style="display:block;">
+				        <img src="slider1.png" style="width:100%; height:300px; object-fit:cover;" alt="Foto 1" />
+				    </div>
+
+				    <div class="mi-diapositiva fade">
+				        <img src="slider2.png" style="width:100%; height:300px; object-fit:cover;" alt="Foto 2" />
+				    </div>
+
+				    <div class="mi-diapositiva fade">
+				        <img src="slider3.png" style="width:100%; height:300px; object-fit:cover;" alt="Foto 3" />
+				    </div>
+
+				    <div class="mi-diapositiva fade">
+				        <img src="slider4.png" style="width:100%; height:300px; object-fit:cover;" alt="Foto 4" />
+				    </div>
+
+				    <a class="boton-prev" onclick="plusSlides(-1)">&#10094;</a>
+				    <a class="boton-next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+				</td>
+			</tr>
+		</table>
+		<br />
+		</td>
+	</tr>
+	</table>
+
+<script type="text/javascript">
+    var slideIndex = 1;
+    var slideInterval;
+
+    // Iniciar el slider
+    showSlides(slideIndex);
+    startAutoPlay();
+
+    // Funcion para las flechas (siguiente / anterior)
+    function plusSlides(n) {
+        clearInterval(slideInterval); // Detener el auto-play si tocas flecha
+        showSlides(slideIndex += n);
+        startAutoPlay(); // Reiniciar auto-play
+    }
+
+    // Funcion principal que muestra la foto
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mi-diapositiva");
+        
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        
+        slides[slideIndex-1].style.display = "block";
+    }
+
+    // Funcion para que pase solo
+    function startAutoPlay() {
+        slideInterval = setInterval(function() {
+            showSlides(slideIndex += 1);
+        }, 3000); // 3000 milisegundos = 3 segundos
+    }
+</script>
+
+</body>
+</html>
